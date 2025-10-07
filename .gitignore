@@ -1,0 +1,40 @@
+# Ignorar archivos de dependencias
+/vendor/
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos de logs
+*.log
+/logs/
+
+# Ignorar archivos de cache
+/cache/
+/tmp/
+
+# Ignorar archivos de cobertura de tests
+/coverage/
+/.phpunit.result.cache
+
+# Ignorar archivos de base de datos SQLite
+*.sqlite
+*.sqlite3
+
+# Ignorar archivos de configuración local
+/config/local/
+
+# Ignorar archivos temporales
+*~
+*.tmp
